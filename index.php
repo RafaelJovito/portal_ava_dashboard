@@ -92,13 +92,31 @@
           <!-- Begin cta -->
           <section id="cta-section">
           <div class="col-md-8 col-sm-12" >
-                <section class="bg-secondary">Section
-
+                <section class="bg-secondary">
+                <div class="bg-section-title">
+                    <div class="bg-title">
+                        <p class="titulo-curso">MINHAS DISCIPLINAS</p>
+                    </div>
+                        <div class="bg-img"><i class="ph-question"></i></div>
+                    <div class="bg-descricao">
+                        <p class="descricao-curso">Clique nas disciplinas abaixo para saber mais detalhes.</p>
+                    </div>
+                    <div class="linha-horizontal"></div>
+                </div>    
                 </section>
             </div>
             <div class="col-md-4 col-sm-12 ">
-                <aside class="bg-secondary h-100">Aside
-
+                <aside class="bg-secondary h-100">
+                    <div class="bg-lateral-section-title">
+                        <div class="bg-lateral-title">
+                            <p class="detalhe-curso-lateral">DETALHES</p>
+                        </div>
+                            <div class="bg-img-lateral"><i class="ph-question"></i></div>
+                        <div class="bg-descricao-lateral">
+                            <p class="descricao-curso-lateral">Mais detalhes sobre a disciplinas abaixo.</p>
+                        </div>
+                        <div class="linha-horizontal-lateral-"></div>
+                    </div> 
                 </aside>
             </div>  
           </section>

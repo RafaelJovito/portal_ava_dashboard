@@ -198,6 +198,116 @@ a.page-scroll.barra {
     cursor: default;
 }
 
+/* Seção título */
+.bg-section-title {
+    position: absolute;
+    width: 875px;
+    height: 170px;
+    left: 58px;
+    top: 70px;
+    /* background: #91d398; */
+}
+
+.bg-title {
+    position: absolute;
+    width: 873px;
+    height: 70px;
+    left: 1px;
+    top: 40px;
+    /* background: #509157; */
+}
+
+i.ph-question {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12em;
+    top: 2.1em;
+    font-size: 21px;
+    color: #438F4B;
+}
+
+.bg-descricao {
+    position: absolute;
+    width: 873px;
+    height: 44px;
+    left: 1px;
+    top: 80px;
+    /* background: #2c6632; */
+}
+
+p.titulo-curso {
+    position: absolute;
+    width: 264px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.linha-horizontal {
+	position: absolute;
+    width: 860px;
+    height: 2px;
+    top: 9em;
+    background: #438F4B;
+}
+
+/* Área lateral */
+
+p.detalhe-curso-lateral {
+    position: fixed;
+    width: 192px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.bg-lateral-title {
+    position: fixed;
+    width: 284px;
+    left: 91.9em;
+    /* background: #438F4B; */
+    height: 70px;
+    top: 9em;
+}
+
+.bg-img-lateral {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: -2em;
+    top: 3.1em;
+    font-size: 21px;
+    color: #438F4B;
+}
+
+.bg-descricao-lateral {
+    position: absolute;
+    width: 873px;
+    height: 40px;
+    top: 151px;
+    /* background: cadetblue; */
+    width: 280px;
+}
+
+.linha-horizontal-lateral- {
+    position: absolute;
+    width: 288px;
+    height: 2px;
+    /* left: 1294px; */
+    top: 13.9em;
+    background: #438F4B;
+}
 
 /* Navbar brand (logo) */
 .navbar-brand {
