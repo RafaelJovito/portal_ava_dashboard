@@ -7,6 +7,7 @@
 		<title>IFRN - Portal</title>
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="https://getbootstrap.com/docs/5.0/forms/select/">
         
         <!-- Google Fonts  -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
@@ -75,8 +76,7 @@
 
             </header>
             <!-- ========= END HEADER =========-->
-            
-            
+                        
           <!-- Begin cta -->
           <section id="cta-section">
           <div class="col-md-8 col-sm-12" >
@@ -90,7 +90,33 @@
                         <p class="descricao-curso">Clique nas disciplinas abaixo para saber mais detalhes.</p>
                     </div>
                     <div class="linha-horizontal"></div>
-                </div>    
+                </div> 
+                <div class="grid-container">
+                    <div class="grid-item">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>TODAS DISCIPLINAS</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    </div>
+                    <div class="grid-item">
+                    <select class="form-select andamento" aria-label="Default select example">
+                        <option selected>EM ANDAMENTO</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    </div>
+                    <div class="grid-item">
+                        <div class="periodos">
+                            <button type="button" class="btn btn-secondary">2022.1</button>
+                            <button type="button" class="btn btn-light">2021.2</button>
+                            <button type="button" class="btn btn-light">2021.1</button>
+                            <button type="button" class="btn btn-light">2020.2</button>
+                        </div>                   
+                    </div>
+                </div>   
                 </section>
             </div>
             <div class="col-md-4 col-sm-12 ">

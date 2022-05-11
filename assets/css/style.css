@@ -309,6 +309,60 @@ p.detalhe-curso-lateral {
     background: #438F4B;
 }
 
+/* Filtros - Grid */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 15em;
+
+  }
+  .grid-item {
+	font-size: 30px;
+	text-align: center;
+  }
+
+  select.form-select {
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 55px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #808080;
+    border: none;
+    background: white;
+}
+
+select.form-select.andamento{
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 22em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #808080;
+    border: none;
+    background: white;
+}
+
+.periodos {
+    margin-left: 9em;
+}
+
+button.btn.btn-secondary {
+    color: #EFEFEF;
+    background-color: #565656;
+}
+
 /* Navbar brand (logo) */
 .navbar-brand {
 	background-repeat: no-repeat;
