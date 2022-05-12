@@ -81,43 +81,66 @@
           <section id="cta-section">
           <div class="col-md-8 col-sm-12" >
                 <section class="bg-secondary">
-                <div class="bg-section-title">
-                    <div class="bg-title">
-                        <p class="titulo-curso">MINHAS DISCIPLINAS</p>
+                    <div class="bg-section-title">
+                        <div class="bg-title">
+                            <p class="titulo-curso">MINHAS DISCIPLINAS</p>
+                        </div>
+                            <div class="bg-img"><i class="ph-question"></i></div>
+                        <div class="bg-descricao">
+                            <p class="descricao-curso">Clique nas disciplinas abaixo para saber mais detalhes.</p>
+                        </div>
+                        <div class="linha-horizontal"></div>
+                    </div> 
+                    <div class="grid-container">
+                        <div class="grid-item">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>TODAS DISCIPLINAS</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        </div>
+                        <div class="grid-item">
+                        <select class="form-select andamento" aria-label="Default select example">
+                            <option selected>EM ANDAMENTO</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        </div>
+                        <div class="grid-item">
+                            <div class="periodos">
+                                <button type="button" class="btn btn-secondary">2022.1</button>
+                                <button type="button" class="btn btn-light">2021.2</button>
+                                <button type="button" class="btn btn-light">2021.1</button>
+                                <button type="button" class="btn btn-light">2020.2</button>
+                            </div>                   
+                        </div>
+                    </div>  
+
+                    <!-- Cards -->
+
+                    <div class="grid-container card">
+                        <div class="grid-item cards"> 
+                            <div class="card">
+                                   <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                <div class="progress bg-dark rounded-0">
+                                    <div class="progress-bar bg-success " role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Criatividade nas escola públicas</h5>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="flex">
+                                        <button type="button" class="btn btn-primary">Acessar</button>
+                                    <div class="flex-auto"></div>
+                                    <button type="button" class="btn btn-secondary">Detalhes</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                        <div class="bg-img"><i class="ph-question"></i></div>
-                    <div class="bg-descricao">
-                        <p class="descricao-curso">Clique nas disciplinas abaixo para saber mais detalhes.</p>
-                    </div>
-                    <div class="linha-horizontal"></div>
-                </div> 
-                <div class="grid-container">
-                    <div class="grid-item">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>TODAS DISCIPLINAS</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                    </div>
-                    <div class="grid-item">
-                    <select class="form-select andamento" aria-label="Default select example">
-                        <option selected>EM ANDAMENTO</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                    </div>
-                    <div class="grid-item">
-                        <div class="periodos">
-                            <button type="button" class="btn btn-secondary">2022.1</button>
-                            <button type="button" class="btn btn-light">2021.2</button>
-                            <button type="button" class="btn btn-light">2021.1</button>
-                            <button type="button" class="btn btn-light">2020.2</button>
-                        </div>                   
-                    </div>
-                </div>   
-                </section>
+                    <!-- End Cards --> 
+                 </section>
             </div>
             <div class="col-md-4 col-sm-12 ">
                 <aside class="bg-secondary h-100">
