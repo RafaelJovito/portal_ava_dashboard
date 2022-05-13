@@ -505,6 +505,27 @@ h5.card-title {
     margin-left: 14px;
 }
 
+button.btn.btn-primary {
+    background-color: #327FDA;
+}
+
+.porcentagem {
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    left: 5.7em;
+    /* top: 1px; */
+    background-color: #5bc266;
+    margin-top: 0px;
+    border-radius: 100% !important;
+}
+
+p.valor_porcentagem {
+    color: white;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
 
 /* End - Cards - Grid */
 
