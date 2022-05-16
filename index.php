@@ -123,6 +123,9 @@
                     <div class="grid-container card">
                         <div class="grid-item cards"> 
                             <div class="card">
+                                <div class="icon_categoria">
+                                    <p class="categoria_card">INST</p>
+                                </div>
                                    <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
                                 <div class="progress bg-dark rounded-0">
                                     <div class="progress-bar bg-success " role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>

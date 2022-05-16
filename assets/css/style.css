@@ -387,7 +387,7 @@ select.form-select {
     line-height: 19px;
     text-transform: uppercase;
     color: #808080;
-    border: none;
+    border: 1px #9ca4ad solid;
     background: white;
 }
 
@@ -524,6 +524,29 @@ p.valor_porcentagem {
     color: white;
     margin-top: 8px;
     margin-left: 5px;
+    text-align: center;
+    font-size: 13px !important;
+}
+
+.icon_categoria {
+    position: fixed;
+    left: 13em;
+    top: 287px;
+    width: 0;
+    height: 44px;
+    border-right: 21px solid #5bc266;
+    border-left: 22px solid #5bc266;
+    border-bottom: 12px solid transparent
+}
+
+p.categoria_card {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    width: -9px;
+    margin-left: -20px;
+    margin-top: 5px;
+    width: 40px;
 }
 
 
