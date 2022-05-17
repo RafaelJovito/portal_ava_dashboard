@@ -132,6 +132,7 @@
                                     <div class="porcentagem"><p class="valor_porcentagem">70%</p></div>
                                 </div>
                                 <div class="card-body">
+                                    <p class="card-turma">2020.1.15046.1E.POS.0345</p>
                                     <h5 class="card-title">Criatividade nas escola públicas</h5>
                                 </div>
                                 <div class="card-footer">
@@ -158,6 +159,27 @@
                         </div>
                         <div class="linha-horizontal-lateral-"></div>
                     </div> 
+                    <!-- Cards destaque -->
+
+                    <div class="grid-container card-destaque">
+                        <div class="grid-item cards-destaque"> 
+                            <div class="card-destaque">
+                                <div class="barra_categoria">
+                                    <p class="categoria_card-destaque">INSTITUCIONAL</p>
+                                </div>
+                                   <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                <div class="card-body">
+                                    <p class="card-turma">2020.1.15046.1E.POS.0345</p>
+                                    <h5 class="card-title">Criatividade nas escola públicas</h5>
+                                </div>
+                                <div class="card-footer-destaque">
+                                    <div class="flex">
+                                        <button type="button" class="btn btn-primary btn-destaque">Acessar o Curso</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Cards destaque --> 
                 </aside>
             </div>  
           </section>

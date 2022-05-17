@@ -377,7 +377,7 @@ p.detalhe-curso-lateral {
 
 select.form-select {
     position: absolute;
-    width: 210px;
+    width: 240px;
     height: 40px;
     left: 55px;
     font-family: 'Open Sans';
@@ -393,7 +393,7 @@ select.form-select {
 
 select.form-select.andamento {
     position: absolute;
-    width: 210px;
+    width: 225px;
     height: 40px;
     left: 22em;
     font-family: 'Open Sans';
@@ -403,7 +403,7 @@ select.form-select.andamento {
     line-height: 19px;
     text-transform: uppercase;
     color: #808080;
-    border: none;
+    border: 1px #9ca4ad solid;
     background: white;
 }
 
@@ -414,6 +414,8 @@ select.form-select.andamento {
 button.btn.btn-secondary {
     color: #EFEFEF;
     background-color: #565656;
+    height: 30px;
+    width: 100px;
 }
 
 
@@ -431,6 +433,17 @@ button.btn.btn-secondary {
     /* margin-left: 8px; */
 }
 
+.grid-container.card-destaque {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 15em;
+}
+
+.grid-item.cards-destaque {
+    padding-left: 0.5em;
+    background-color: #f2f3f5;
+}
+
 .grid-item.card {
     font-size: 30px;
     text-align: center;
@@ -444,10 +457,10 @@ button.btn.btn-secondary {
     border-radius: 0.65rem;
     flex: auto;
     max-width: 95%;
-    left: 1em;
+    left: 1.3em;
     position: absolute;
     width: 250px;
-    height: 288px;
+    height: 290px;
     /* left: 0.7em; */
     background-color: white;
     padding-left: 0px;
@@ -466,6 +479,7 @@ button.btn.btn-secondary {
 .flex {
     display: flex;
     padding: 0px 14px 0px 14px;
+    width: auto;
 }
 
 .flex-auto {
@@ -507,6 +521,10 @@ h5.card-title {
 
 button.btn.btn-primary {
     background-color: #327FDA;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .porcentagem {
@@ -529,14 +547,23 @@ p.valor_porcentagem {
 }
 
 .icon_categoria {
-    position: fixed;
-    left: 13em;
-    top: 287px;
+    position: absolute;
+    left: 0.3em;
+    top: 0px;
     width: 0;
     height: 44px;
     border-right: 21px solid #5bc266;
     border-left: 22px solid #5bc266;
-    border-bottom: 12px solid transparent
+    border-bottom: 12px solid transparent;
+}
+
+.barra_categoria {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 238px;
+    height: 35px;
+    background-color: #5bc266;
 }
 
 p.categoria_card {
@@ -547,6 +574,49 @@ p.categoria_card {
     margin-left: -20px;
     margin-top: 5px;
     width: 40px;
+}
+
+.card-destaque {
+    border: none;
+    border-radius: 0.65rem;
+    flex: auto;
+    max-width: 95%;
+    left: 13px;
+    position: absolute;
+    width: 250px;
+    height: 255px;
+    /* background-color: white; */
+    padding-left: 0px;
+}
+
+p.categoria_card-destaque {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
+    width: auto;
+    text-align: center;
+}
+
+button.btn.btn-primary.btn-destaque {
+    margin: auto;
+    width: 218px;
+}
+
+.card-footer-destaque {
+    border-top: transparent;
+    border-radius: 0.65rem !important;
+}
+
+p.card-turma {
+    width: auto;
+    color: #9ca6a9;
+    text-align-last: auto;
+    text-align: left;
+    margin-left: 14px;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 4px;
 }
 
 
