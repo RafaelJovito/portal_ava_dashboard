@@ -110,30 +110,9 @@ section {
     margin: 5px 0 10px;
 }
 
-.thumbnail {
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: #FFF;
-    border: 1px solid #DDD;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
 .form-control {
     -webkit-box-shadow: none;
     box-shadow: none;
-}
-
-.parallax {
-    position: relative;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
 #header {
@@ -185,21 +164,6 @@ a.page-scroll.ph-name {
 
 
 /* ===== Begin navbar ===== */
-
-.navbar {
-    margin: 0;
-    border: none;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.navbar .container {
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 
 /* Menu Usuário */
@@ -291,7 +255,7 @@ p.titulo-curso {
     position: absolute;
     width: 264px;
     height: 29px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -315,13 +279,14 @@ p.detalhe-curso-lateral {
     position: fixed;
     width: 192px;
     height: 21px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
     color: #565656;
+    margin-left: 5px;
 }
 
 .bg-lateral-title {
@@ -352,7 +317,7 @@ p.detalhe-curso-lateral {
     width: 280px;
 }
 
-.linha-horizontal-lateral- {
+.linha-horizontal-lateral {
     position: absolute;
     width: 288px;
     height: 2px;
@@ -360,6 +325,44 @@ p.detalhe-curso-lateral {
     top: 13.9em;
     background: #438F4B;
 }
+
+
+/* Eventos */
+
+p.evento {
+    position: fixed;
+    width: 192px;
+    height: 21px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #565656;
+    margin-left: 5px;
+}
+
+.bg-lateral-evento {
+    position: fixed;
+    width: 284px;
+    left: 91.9em;
+    /* background: #438F4B; */
+    height: 70px;
+    top: 36em;
+}
+
+.linha-horizontal-lateral-evento {
+    position: absolute;
+    width: 288px;
+    height: 2px;
+    left: -13px;
+    top: 22em;
+    background: #438F4B;
+}
+
+
+/* End Eventos */
 
 
 /* Filtros - Grid */
@@ -408,14 +411,16 @@ select.form-select.andamento {
 }
 
 .periodos {
-    margin-left: 9em;
+    margin-left: 15em;
 }
 
 button.btn.btn-secondary {
     color: #EFEFEF;
     background-color: #565656;
-    height: 30px;
+    height: 29px;
     width: 100px;
+    font-size: 13px;
+    text-align: center;
 }
 
 
@@ -441,7 +446,7 @@ button.btn.btn-secondary {
 
 .grid-item.cards-destaque {
     padding-left: 0.5em;
-    background-color: #f2f3f5;
+    background-color: #efefef;
 }
 
 .grid-item.card {
@@ -511,20 +516,23 @@ button.btn.btn-secondary {
 }
 
 h5.card-title {
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 200;
     margin-bottom: 10px;
     text-align: left;
     font-size: 18px;
     margin-left: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
 }
 
 button.btn.btn-primary {
     background-color: #327FDA;
-    height: 30px;
+    height: 29px;
     width: 100px;
-    font-size: 14px;
-    text-align: center;
+    font-size: 13px;
+    text-align: center
 }
 
 .porcentagem {
@@ -617,6 +625,12 @@ p.card-turma {
     font-size: 13px;
     margin-top: -10px;
     margin-bottom: 4px;
+}
+
+.img-fluid-destaque {
+    width: 238px;
+    height: 140px;
+    margin-bottom: 11px;
 }
 
 

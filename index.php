@@ -23,6 +23,7 @@
 		<!-- Theme CSS -->
         <link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="assets/css/mobile.css">
 
 		<!-- Skin CSS -->
@@ -137,9 +138,9 @@
                                 </div>
                                 <div class="card-footer">
                                     <div class="flex">
-                                        <button type="button" class="btn btn-primary">Acessar</button>
+                                        <button type="button" class="btn btn-primary">ACESSAR</button>
                                     <div class="flex-auto"></div>
-                                    <button type="button" class="btn btn-secondary">Detalhes</button>
+                                    <button type="button" class="btn btn-secondary">DETALHES</button>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +158,7 @@
                         <div class="bg-descricao-lateral">
                             <p class="descricao-curso-lateral">Mais detalhes sobre a disciplinas abaixo.</p>
                         </div>
-                        <div class="linha-horizontal-lateral-"></div>
+                        <div class="linha-horizontal-lateral"></div>
                     </div> 
                     <!-- Cards destaque -->
 
@@ -167,7 +168,7 @@
                                 <div class="barra_categoria">
                                     <p class="categoria_card-destaque">INSTITUCIONAL</p>
                                 </div>
-                                   <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                   <img class="img-fluid-destaque" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
                                 <div class="card-body">
                                     <p class="card-turma">2020.1.15046.1E.POS.0345</p>
                                     <h5 class="card-title">Criatividade nas escola públicas</h5>
@@ -180,6 +181,16 @@
                         </div>
                     </div>
                     <!-- End Cards destaque --> 
+
+                    <!-- Eventos do Curso-->
+                    <div class="bg-lateral-section-evento">
+                        <div class="bg-lateral-evento">
+                            <p class="evento">EVENTOS DO CURSO</p>
+                        </div>
+                        <div class="linha-horizontal-lateral-evento"></div>
+                        <?php require 'assets/inc/calendar/pages/disponibilidades/disponibilidade.php'; ?>
+                    </div>
+                    <!-- End Eventos do Curso-->
                 </aside>
             </div>  
           </section>
