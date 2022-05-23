@@ -365,6 +365,44 @@ p.evento {
 /* End Eventos */
 
 
+/* Informativos */
+
+p.informativo {
+    position: fixed;
+    width: 230px;
+    height: 21px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #565656;
+    margin-left: 5px;
+}
+
+.bg-lateral-informativo {
+    position: fixed;
+    width: 284px;
+    left: 91.9em;
+    /* background: #438F4B; */
+    height: 70px;
+    top: 54em;
+}
+
+.linha-horizontal-lateral-informativo {
+    position: absolute;
+    width: 288px;
+    height: 2px;
+    left: 92em;
+    top: 60em;
+    background: #438F4B;
+}
+
+
+/* End Informativos */
+
+
 /* Filtros - Grid */
 
 .grid-container {

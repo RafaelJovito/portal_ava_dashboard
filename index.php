@@ -191,6 +191,15 @@
                         <?php require 'assets/inc/calendar/pages/disponibilidades/disponibilidade.php'; ?>
                     </div>
                     <!-- End Eventos do Curso-->
+
+                    <!-- Últimos Informativos-->
+                    <div class="bg-lateral-section-informativo">
+                        <div class="bg-lateral-informativo">
+                            <p class="informativo">Últimos Informativos</p>
+                        </div>
+                        <div class="linha-horizontal-lateral-informativo"></div>
+                    </div>
+                    <!-- End Últimos Informativos-->
                 </aside>
             </div>  
           </section>
